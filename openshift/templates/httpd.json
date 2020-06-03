@@ -182,7 +182,7 @@
                 "image": " ",
                 "ports": [
                   {
-                    "containerPort": 8080
+                    "containerPort": 9080
                   }
                 ],
                 "readinessProbe": {
@@ -190,7 +190,7 @@
                   "initialDelaySeconds": 3,
                   "httpGet": {
                     "path": "/",
-                    "port": 8080
+                    "port": 9080
                   }
                 },
                 "livenessProbe": {
@@ -198,7 +198,7 @@
                     "initialDelaySeconds": 30,
                     "httpGet": {
                         "path": "/",
-                        "port": 8080
+                        "port": 9080
                     }
                 },
                 "resources": {
