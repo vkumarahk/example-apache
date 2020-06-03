@@ -60,10 +60,10 @@
         },
         "tls": {
           "termination": "edge",
-          "insecureEdgeTermination": "Redirect",
+          "insecureEdgeTermination": "Redirect"
         },
-        "wildcardPolicy": "None",
-      },
+        "wildcardPolicy": "None"
+      }
     },
     {
       "kind": "ImageStream",
