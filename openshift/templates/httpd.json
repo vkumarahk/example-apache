@@ -54,8 +54,16 @@
         "to": {
           "kind": "Service",
           "name": "${NAME}"
-        }
-      }
+        },
+        "port": {
+          "targetPort": "web"
+        },
+        "tls": {
+          "termination": "edge",
+          "insecureEdgeTermination": "Redirect",
+        },
+        "wildcardPolicy": "None",
+      },
     },
     {
       "kind": "ImageStream",
