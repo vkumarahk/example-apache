@@ -18,7 +18,7 @@
   "message": "The following service(s) have been created in your project: ${NAME}.",
   "labels": {
       "template": "exam-apache",
-      "app": "example-apache"
+      "app": "exam-apache"
   },
   "objects": [
     {
@@ -221,7 +221,7 @@
       "displayName": "Name",
       "description": "The name assigned to all of the frontend objects defined in this template.",
       "required": true,
-      "value": "example-apache"
+      "value": "exam-apache"
     },
     {
       "name": "NAMESPACE",
